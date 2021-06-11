@@ -6,5 +6,5 @@ ENV LANG en_US.UTF-8
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update -qq
-RUN apt-get install -y openssh-client git curl jq golang
+RUN apt-get install -y openssh-client git curl jq golang dnsutils
 
